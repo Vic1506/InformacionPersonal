@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vic</title>
+    <link rel="shortcut icon" href="./img/logo-black.png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <h2 class="nav_title">Info Vic</h2>
+            </div>
+            <ul class="nav_link nav_link--menu">
+                
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Acerca de mi</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Contacto</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Metas</a>
+                </li>
+
+                <img src="./img/close.svg" alt="" class="nav_close">
+            </ul>
+
+            <div class="nav_menu">
+                <img src="./img/menu.svg" alt="" class="nav_img">
+            </div>
+        </nav>
+
+        <section class="hero_container container">
+            <h1 class="hero_title">Informacion general y especifica sobre mi.</h1>
+            <p class="hero_parrafo">Este blog intentara informar un poco de mi como persona, 
+                tambien como estudiante y futuro profesionista.</p>
+        </section>
+    </header>
+<main>
+    <section class="container about">
+        <h2 class="subtitle">Cosas que aprenderas sobre Victor</h2>
+        <p class="about_parrafo">En este blog aprenderas un poco sobre mi, Victor, desde cosas 
+            academicas/profesionales hasta cosas de interes personal</p>
+        <h3 class="subtitle">Skills</h3>
+
+        <div class="about_main">
+
+            <article class="about_icons">
+                <img src="./img/shapes.svg" alt="" class="about_icon">
+                <h3 class="about_title">HTML</h3>
+                <p class="about_parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto veniam omnis, iste aspernatur 
+                    necessitatibus minima, ipsa voluptatibus maxime animi dicta possimus labore accusantium 
+                    non reprehenderit reiciendis. Illum ab beatae hic?</p>
+            </article>
+        
+            <article class="about_icons">
+                <img src="./img/paint.svg" alt="" class="about_icon">
+                <h3 class="about_title">CSS</h3>
+                <p class="about_parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto veniam omnis, iste aspernatur 
+                    necessitatibus minima, ipsa voluptatibus maxime animi dicta possimus labore accusantium 
+                    non reprehenderit reiciendis. Illum ab beatae hic?</p>
+            </article>
+        
+            <article class="about_icons">
+                <img src="./img/code.svg" alt="" class="about_icon">
+                <h3 class="about_title">JavaScript</h3>
+                <p class="about_parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto veniam omnis, iste aspernatur 
+                    necessitatibus minima, ipsa voluptatibus maxime animi dicta possimus labore accusantium 
+                    non reprehenderit reiciendis. Illum ab beatae hic?</p>
+            </article>
+        
+        </div>
+    </section>
+
+
+    <section class="knowledge">
+        <div class="knowledge_container container">
+            <div class="knowledge_text">
+                <h2 class="subtitle">Mi gran gusto por la cultura Coreana y el K-Pop</h2>
+                <p class="knowledge_parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, atque veniam ea animi 
+                    repellendus quos, nisi hic accusamus vero esse asperiores molestiae accusantium perspiciatis quod facere 
+                    harum recusandae maiores culpa!</p>
+            </div>
+
+            <figure class="knowledge_picture">
+                <img src="./img/bts dionysus.jpg" alt="" class="knowledge_img">
+            </figure>
+        </div>
+    </section>
+</main>
+
+<section class="metas">
+    <h2 class="subtitle" id="metas_centro">Metas</h2>
+    <p class="metas_p" >Aqui un pequeño listado de metas de pasado, presente y futuro.</p>
+    <!--===================================================
+                    CARRUSEL DE IMAGENES
+    ==========================================================-->
+    <div class="metas_container container">
+        
+        <img src="./img/leftarrow.svg" alt="" id="before" class="metas_arrow">
+       
+       <!--SECCION 1-->
+        <section class="metas_body metas_body--show" data-id="1">
+            <div class="metas_text">
+                <h2 class="subtitle">Logre obtener mi cinta negra en TaeKwonDo, 
+                    <span class="metas_desc">Cinta negra 1er Dan, Unison.</span></h2>
+                    <p class="metas_review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, 
+                        accusamus? Modi officia nisi ab! Dolores inventore omnis soluta necessitatibus, quidem provident ab vero 
+                        tempore, beatae voluptates facere corporis numquam odio.</p>
+            </div>
+
+            <figure class="metas_picture">
+                <img src="./img/tkd.jpeg" alt="" class="metas_img">
+            </figure>
+        </section>
+
+        <!-- SECCION 2-->
+        <section class="metas_body" data-id="2">
+            <div class="metas_text">
+                <h2 class="subtitle">Quiero ser un buen programador, 
+                    <span class="metas_desc">espero lograrlo para conseguir un buen trabajo
+                        y poder cumplir mi meta en el futuro.</span></h2>
+                    <p class="metas_review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, 
+                        accusamus? Modi officia nisi ab! Dolores inventore omnis soluta necessitatibus, quidem provident ab vero.</p>
+            </div>
+
+            <figure class="metas_picture">
+                <img src="./img/javascript.jpg" alt="" class="metas_img">
+            </figure>
+        </section>
+
+         <!--SECCION 3-->
+        <section class="metas_body" data-id="3">
+            <div class="metas_text">
+                <h2 class="subtitle">Quiero emigrar a Canada, 
+                    <span class="metas_desc">para eso necesito esforzarme y 
+                        trazar un buen camino para cumplirlo.</span></h2>
+                    <p class="metas_review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, 
+                        accusamus? Modi officia nisi ab! Dolores, quidem provident ab vero 
+                        tempore, beatae voluptates facere corporis numquam odio.</p>
+            </div>
+
+            <figure class="metas_picture">
+                <img src="./img/canada.jpg" alt="" class="metas_img">
+            </figure>
+        </section>
+
+        <!--SECCION 4-->
+        <section class="metas_body " data-id="4">
+            <div class="metas_text">
+                <h2 class="subtitle">Quiero poder visitar Corea del Sur, 
+                    <span class="metas_desc">me gustaria visitar Busan, Seul y la Isla de Jeju.</span></h2>
+                    <p class="metas_review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, 
+                        accusamus? Modi officia nisi ab! Dolores inventore omnis soluta necessitatibus, quidem provident ab vero 
+                        tempore, beatae voluptates.</p>
+            </div>
+
+            <figure class="metas_picture">
+                <img src="./img/corea.jpg" alt="" class="metas_img">
+            </figure>
+        </section>
+
+       <!-- SECCION 05-->
+        <section class="metas_body" data-id="5">
+            <div class="metas_text">
+                <h2 class="subtitle">Quiero ir a un concierto de BTS y Twice, 
+                    <span class="metas_desc">aun que tome un poco de tiempo, hasta que hagan conciertos.</span></h2>
+                    <p class="metas_review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, 
+                        accusamus? Modi officia nisi ab! quidem provident ab vero 
+                        tempore, beatae voluptates facere corporis numquam odio.</p>
+            </div>
+
+            <figure class="metas_picture">
+                <img src="./img/twice.jpg" alt="" class="metas_img">
+            </figure>
+        </section>
+        
+        <img src="./img/rightarrow.svg" alt="" id="next" class="metas_arrow">
+
+    </div>
+</section>
+
+<section class="questions container">
+    <h2 class="subtitle">Informacion general sobre mi</h2>
+    <p class="questions_parrafo">Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Eius provident consequuntur quis, architecto neque eaque iusto, 
+        sapiente eveniet veritatis repellat magni corporis similique. Voluptates nemo ad placeat atque 
+        cumque cupiditate.</p>
+
+        <section class="questions_container">
+
+            <!--PREGUNTA 1-->
+            <article class="questions_padding">
+                <div class="questions_answer">
+                    <h3 class="questions_title">¿De donde soy?
+                        <span class="questions_arrow">
+                            <img src="./img/arrow.svg" alt="" class="questions_img">
+                        </span>
+                    </h3>
+                    <p class="questions_show">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Nostrum distinctio debitis nam veritatis totam sit vel sed, vero ducimus nisi 
+                        praesentium illum illo pariatur dolorum blanditiis suscipit tenetur quaerat tempore.
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Nostrum distinctio debitis nam veritatis totam sit vel sed, vero ducimus nisi 
+                        praesentium illum illo pariatur dolorum blanditiis suscipit tenetur quaerat tempore.
+                    </p>
+                </div>
+            </article>
+
+            <!--PREGUNTA 2-->
+            <article class="questions_padding">
+                <div class="questions_answer">
+                    <h3 class="questions_title">¿A que me dedico?
+                        <span class="questions_arrow">
+                            <img src="./img/arrow.svg" alt="" class="questions_img">
+                        </span>
+                    </h3>
+                    <p class="questions_show">Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Nostrum distinctio debitis nam veritatis totam sit vel sed, vero ducimus nisi 
+                        praesentium illum illo pariatur dolorum blanditiis suscipit tenetur quaerat tempore.</p>
+                </div>
+            </article>
+
+            
+        </section>
+</section>
+
+<footer class="footer">
+    <section class="footer_container container">
+        <nav class="nav nav--footer">
+            <h2 class="footer_title">Hola</h2>
+
+            <ul class="nav_link nav_link-footer">
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Acerca de mi</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Contacto</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Metas</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="https://www.facebook.com/tkdvh" class="footer_icons"><img src="./img/facebook.svg" alt="" class="footer_img"></a>
+                <a href="https://twitter.com/victorf228" class="footer_icons"><img src="./img/twitter.svg" alt="" class="footer_img"></a>
+                <a href="https://www.instagram.com/viii_nuganareulmagado/" class="footer_icons"><img src="./img/instagram.svg" alt="" class="footer_img"></a>
+            </div>
+        </section>
+    </section>
+</footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/preguntas.js"></script>
+</body>
+</html>
